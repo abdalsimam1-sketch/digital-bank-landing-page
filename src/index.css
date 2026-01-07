@@ -2,6 +2,9 @@
   text-decoration: none;
   color: grey;
 }
+.main-container {
+  font-family: "Times New Roman", Times, serif;
+}
 .top-section {
   background-image: url("../src/assets/images/bg-intro-desktop.svg");
   background-repeat: no-repeat;
@@ -11,8 +14,24 @@
   min-height: 100vh;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 375px) {
   .top-section {
     background-image: url("../src/assets/images/bg-intro-mobile.svg");
   }
+}
+
+.cards img {
+  height: 17rem;
+}
+
+footer {
+  height: auto;
+  background-color: hsl(233, 26%, 24%);
+}
+.middle a:hover {
+  color: green;
+  transform: scale(1.2);
+}
+.middle a {
+  margin-bottom: 0;
 }
